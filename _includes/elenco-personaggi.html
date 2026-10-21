@@ -1,0 +1,16 @@
+<nav class="characters-summary" aria-labelledby="titolo-personaggi">
+  <h2 id="titolo-personaggi">Tutti i personaggi</h2>
+  <ul class="characters-list">
+    {% for persona in site.data.personaggi %}
+      {% assign percorso = '/personaggi/' | append: persona.slug | append: '/' %}
+      {% assign scheda = site.personaggi | where: 'url', percorso | first %}
+      <li>
+      {% if scheda %}
+        <a href="{{ scheda.url | relative_url }}"{% if page.url == scheda.url %} aria-current="page"{% endif %}>{{ persona.nome | escape }}</a>
+      {% else %}
+        <span>{{ persona.nome | escape }}</span>
+      {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

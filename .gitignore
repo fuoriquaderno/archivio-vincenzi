@@ -1,0 +1,7 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+privato/
+*.sql
+codici*.csv
+codici*.json

@@ -1,0 +1,135 @@
+[
+  {
+    "scheda": true,
+    "numero": 10,
+    "ruolo": "Madre del signor Vincenzi",
+    "nome": "Costanza Vincenzi",
+    "slug": "costanza"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Marito di Agnese e figlio di Costanza",
+    "nome": "Signor Vincenzi",
+    "slug": "signor-vincenzi"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Madre di Antonio, Giuseppe e Clara",
+    "nome": "Agnese Valdieri",
+    "slug": "agnese"
+  },
+  {
+    "scheda": true,
+    "numero": 6,
+    "ruolo": "Sorella gemella di Agnese",
+    "nome": "Agata Valdieri",
+    "slug": "agata"
+  },
+  {
+    "scheda": true,
+    "numero": 7,
+    "ruolo": "Fratello di Agnese e Agata",
+    "nome": "Augusto Valdieri",
+    "slug": "augusto"
+  },
+  {
+    "scheda": true,
+    "numero": 4,
+    "ruolo": "Padre di Cecilia, orologiaio e commerciante",
+    "nome": "Arturo Morelli",
+    "slug": "arturo"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Primogenito, marito di Caterina",
+    "nome": "Antonio Vincenzi",
+    "slug": "antonio"
+  },
+  {
+    "scheda": true,
+    "numero": 3,
+    "ruolo": "Moglie di Antonio",
+    "nome": "Caterina",
+    "slug": "caterina"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Secondogenito, marito di Cecilia",
+    "nome": "Giuseppe Vincenzi",
+    "slug": "giuseppe"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Figlia di Arturo e moglie di Giuseppe",
+    "nome": "Cecilia Morelli",
+    "slug": "cecilia"
+  },
+  {
+    "scheda": true,
+    "numero": 19,
+    "ruolo": "Figlia minore, pianista",
+    "nome": "Clara Vincenzi",
+    "slug": "clara"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Nome da decidere",
+    "nome": "Figlia di Antonio e Caterina",
+    "slug": "figlia-antonio"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Bambinaia dei Vincenzi",
+    "nome": "Teresa",
+    "slug": "teresa"
+  },
+  {
+    "scheda": true,
+    "numero": 5,
+    "ruolo": "Al servizio dei Vincenzi",
+    "nome": "Giardiniere",
+    "slug": "giardiniere"
+  },
+  {
+    "scheda": true,
+    "numero": 13,
+    "ruolo": "Autrice dell'abito da sposa di Cecilia",
+    "nome": "Sarta",
+    "slug": "sarta"
+  },
+  {
+    "scheda": true,
+    "numero": 16,
+    "ruolo": "Racconta i ricordi di suo padre",
+    "nome": "Figlio del medico",
+    "slug": "figlio-del-medico"
+  },
+  {
+    "scheda": true,
+    "numero": 2,
+    "ruolo": "Testimone dell'incidente ferroviario",
+    "nome": "Ferroviere",
+    "slug": "ferroviere"
+  },
+  {
+    "scheda": true,
+    "numero": 15,
+    "ruolo": "Al servizio dei Morelli",
+    "nome": "Bambinaia di Cecilia",
+    "slug": "bambinaia-cecilia"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Precettore della famiglia",
+    "nome": "Cesare Bellandi",
+    "slug": "cesare-bellandi"
+  }
+]

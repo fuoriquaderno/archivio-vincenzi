@@ -1,0 +1,16 @@
+title: Archivio Vincenzi
+url: "https://fuoriquaderno.github.io"
+baseurl: "/archivio-vincenzi"
+collections:
+  personaggi:
+    output: true
+    permalink: /personaggi/:name/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gemfile
+  - gemfile.lock
+  - README.md
+  - supabase
+  - privato

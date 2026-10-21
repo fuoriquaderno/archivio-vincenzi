@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <meta name="description" content="{{ page.description | default: 'Fotografie e testimonianze della famiglia Vincenzi.' | escape }}">
+    <title>{{ page.title | default: site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+</head>
+<body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+    {% include header.html %}
+    <main id="contenuto" class="site-main">
+        {{ content }}
+    </main>
+    {% include footer.html %}
+    <script defer src="{{ '/assets/js/archivio-config.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/archivio.js' | relative_url }}"></script>
+</body>
+</html>
