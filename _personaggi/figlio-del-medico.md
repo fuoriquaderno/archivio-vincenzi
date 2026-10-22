@@ -1,9 +1,9 @@
 ---
 layout: personaggio
-title: 'Figlio del medico'
-ruolo: 'Racconta i ricordi di suo padre'
+title: 'Medico'
+ruolo: 'Il racconto è narrato dal figlio del medico'
 numero: 16
-foto: '/images/ritratto_16.jpg'
+foto: '/images/Il medico.jpg'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: figlio-del-medico
 ---

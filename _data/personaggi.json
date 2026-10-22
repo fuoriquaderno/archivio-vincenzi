@@ -79,13 +79,6 @@
   {
     "scheda": false,
     "numero": 0,
-    "ruolo": "Nome da decidere",
-    "nome": "Figlia di Antonio e Caterina",
-    "slug": "figlia-antonio"
-  },
-  {
-    "scheda": false,
-    "numero": 0,
     "ruolo": "Bambinaia dei Vincenzi",
     "nome": "Teresa",
     "slug": "teresa"
@@ -107,8 +100,8 @@
   {
     "scheda": true,
     "numero": 16,
-    "ruolo": "Racconta i ricordi di suo padre",
-    "nome": "Figlio del medico",
+    "ruolo": "Il racconto è narrato dal figlio del medico",
+    "nome": "Medico",
     "slug": "figlio-del-medico"
   },
   {
@@ -124,12 +117,5 @@
     "ruolo": "Al servizio dei Morelli",
     "nome": "Bambinaia di Cecilia",
     "slug": "bambinaia-cecilia"
-  },
-  {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Precettore della famiglia",
-    "nome": "Cesare Bellandi",
-    "slug": "cesare-bellandi"
   }
 ]

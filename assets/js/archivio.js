@@ -55,6 +55,20 @@
       node.childNodes.forEach(child => copy(child, element));
     }
     doc.body.childNodes.forEach(node => copy(node, safe));
+    const narrators = {
+      'giardiniere': 'Il giardiniere',
+      'sarta': 'La sarta',
+      'figlio-del-medico': 'Il figlio del medico',
+      'ferroviere': 'Il ferroviere',
+      'bambinaia-cecilia': 'La bambinaia di Cecilia',
+      'teresa': 'Elisa, nipote di Teresa'
+    };
+    if (narrators[slug]) {
+      const signature = document.createElement('p');
+      signature.className = 'story-signature';
+      signature.textContent = narrators[slug];
+      safe.appendChild(signature);
+    }
     story.replaceChildren(safe); story.hidden = false; gate.hidden = true; retry.hidden = true;
     status.textContent = 'Storia ritrovata · Ora è leggibile da tutti.';
     mark(slug, true);
