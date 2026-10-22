@@ -2,7 +2,7 @@
 layout: personaggio
 title: 'Agnese Valdieri'
 ruolo: 'Moglie di Giovanni Vincenzi'
-numero: 21
+numero: 3
 foto: '/images/Agnese VIncenzi.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: agnese

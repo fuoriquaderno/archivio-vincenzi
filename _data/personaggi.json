@@ -1,91 +1,84 @@
 [
   {
     "scheda": true,
-    "numero": 10,
-    "ruolo": "Madre del signor Vincenzi",
-    "nome": "Costanza Vincenzi",
-    "slug": "costanza"
-  },
-  {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Marito di Agnese e figlio di Costanza",
-    "nome": "Signor Vincenzi",
-    "slug": "signor-vincenzi"
-  },
-  {
-    "scheda": true,
-    "numero": 21,
-    "ruolo": "Moglie di Giovanni Vincenzi",
-    "nome": "Agnese Valdieri",
-    "slug": "agnese"
-  },
-  {
-    "scheda": true,
-    "numero": 6,
-    "ruolo": "Sorella gemella di Agnese",
-    "nome": "Agata Valdieri",
-    "slug": "agata"
-  },
-  {
-    "scheda": true,
-    "numero": 7,
-    "ruolo": "Fratello di Agnese e Agata",
-    "nome": "Augusto Valdieri",
-    "slug": "augusto"
-  },
-  {
-    "scheda": true,
-    "numero": 4,
-    "ruolo": "Padre di Cecilia, orologiaio e commerciante",
-    "nome": "Arturo Morelli",
-    "slug": "arturo"
-  },
-  {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Primogenito, marito di Caterina",
-    "nome": "Antonio Vincenzi",
-    "slug": "antonio"
-  },
-  {
-    "scheda": true,
-    "numero": 3,
-    "ruolo": "Moglie di Antonio",
-    "nome": "Caterina",
-    "slug": "caterina"
-  },
-  {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Secondogenito, marito di Cecilia",
-    "nome": "Giuseppe Vincenzi",
-    "slug": "giuseppe"
-  },
-  {
-    "scheda": true,
-    "numero": 22,
-    "ruolo": "Moglie di Giuseppe Vincenzi",
-    "nome": "Cecilia Morelli",
-    "slug": "cecilia"
-  },
-  {
-    "scheda": true,
-    "numero": 19,
-    "ruolo": "Figlia minore, pianista",
-    "nome": "Clara Vincenzi",
-    "slug": "clara"
-  },
-  {
-    "scheda": true,
-    "numero": 24,
+    "numero": 1,
     "ruolo": "Bambinaia dei Vincenzi · Ricordi di sua nipote Elisa",
     "nome": "Teresa",
     "slug": "teresa"
   },
   {
     "scheda": true,
+    "numero": 2,
+    "ruolo": "Madre del signor Vincenzi",
+    "nome": "Costanza Vincenzi",
+    "slug": "costanza"
+  },
+  {
+    "scheda": true,
+    "numero": 3,
+    "ruolo": "Moglie di Giovanni Vincenzi",
+    "nome": "Agnese Valdieri",
+    "slug": "agnese"
+  },
+  {
+    "scheda": true,
+    "numero": 4,
+    "ruolo": "Sorella gemella di Agnese",
+    "nome": "Agata Valdieri",
+    "slug": "agata"
+  },
+  {
+    "scheda": true,
     "numero": 5,
+    "ruolo": "Il racconto è narrato dal figlio del medico",
+    "nome": "Medico",
+    "slug": "figlio-del-medico"
+  },
+  {
+    "scheda": true,
+    "numero": 6,
+    "ruolo": "Fratello di Agnese e Agata",
+    "nome": "Augusto Valdieri",
+    "slug": "augusto"
+  },
+  {
+    "slug": "sofia",
+    "scheda": true,
+    "numero": 7,
+    "ruolo": "Moglie di Augusto Valdieri",
+    "nome": "Sofia Valdieri"
+  },
+  {
+    "scheda": true,
+    "numero": 8,
+    "ruolo": "Padre di Cecilia, orologiaio e commerciante",
+    "nome": "Arturo Morelli",
+    "slug": "arturo"
+  },
+  {
+    "scheda": true,
+    "numero": 9,
+    "ruolo": "Al servizio dei Morelli",
+    "nome": "Bambinaia di Cecilia",
+    "slug": "bambinaia-cecilia"
+  },
+  {
+    "scheda": true,
+    "numero": 10,
+    "ruolo": "Figlia minore, pianista",
+    "nome": "Clara Vincenzi",
+    "slug": "clara"
+  },
+  {
+    "scheda": true,
+    "numero": 11,
+    "ruolo": "Moglie di Antonio",
+    "nome": "Caterina",
+    "slug": "caterina"
+  },
+  {
+    "scheda": true,
+    "numero": 12,
     "ruolo": "Al servizio dei Vincenzi",
     "nome": "Giardiniere",
     "slug": "giardiniere"
@@ -99,14 +92,7 @@
   },
   {
     "scheda": true,
-    "numero": 16,
-    "ruolo": "Il racconto è narrato dal figlio del medico",
-    "nome": "Medico",
-    "slug": "figlio-del-medico"
-  },
-  {
-    "scheda": true,
-    "numero": 2,
+    "numero": 14,
     "ruolo": "Testimone dell'incidente ferroviario",
     "nome": "Ferroviere",
     "slug": "ferroviere"
@@ -114,15 +100,29 @@
   {
     "scheda": true,
     "numero": 15,
-    "ruolo": "Al servizio dei Morelli",
-    "nome": "Bambinaia di Cecilia",
-    "slug": "bambinaia-cecilia"
+    "ruolo": "Moglie di Giuseppe Vincenzi",
+    "nome": "Cecilia Morelli",
+    "slug": "cecilia"
   },
   {
-    "slug": "sofia",
-    "scheda": true,
-    "numero": 23,
-    "ruolo": "Moglie di Augusto Valdieri",
-    "nome": "Sofia Valdieri"
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Marito di Agnese e figlio di Costanza",
+    "nome": "Signor Vincenzi",
+    "slug": "signor-vincenzi"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Primogenito, marito di Caterina",
+    "nome": "Antonio Vincenzi",
+    "slug": "antonio"
+  },
+  {
+    "scheda": false,
+    "numero": 0,
+    "ruolo": "Secondogenito, marito di Cecilia",
+    "nome": "Giuseppe Vincenzi",
+    "slug": "giuseppe"
   }
 ]

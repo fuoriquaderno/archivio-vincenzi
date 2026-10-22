@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="character-page">
+  <a class="back-to-archive" href="{{ '/#archivio' | relative_url }}">← Torna all’archivio</a>
+  <header class="character-heading">
+    <p class="eyebrow">Storia {{ page.numero }}</p>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="character-role">{{ page.ruolo | escape }}</p>
+  </header>
+  <div class="character-content">
+    <div class="character-portrait"><img src="{{ page.foto | relative_url }}" alt="Ritratto di {{ page.title | escape }}" width="1024" height="1536"></div>
+    <div class="story-access">
+      <p class="story-status">Storia ritrovata · Già leggibile da tutti.</p>
+      <div class="character-story">{{ content }}
+        <p class="story-signature">{{ page.narratore | escape }}</p>
+      </div>
+    </div>
+  </div>
+</article>
+{% include elenco-personaggi.html %}

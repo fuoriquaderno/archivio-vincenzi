@@ -27,10 +27,21 @@
   document.querySelectorAll('.person-card-link, .characters-list a').forEach(link => {
     const match = new URL(link.href).pathname.match(/\/personaggi\/([^/]+)\//);
     if (!match) return;
-    link.dataset.storyLink = match[1];
+    const publicStory = match[1] === 'teresa';
+    if (!publicStory) link.dataset.storyLink = match[1];
     const badge = document.createElement('span');
-    badge.className = 'story-badge'; badge.textContent = 'Verifica disponibilità';
+    badge.className = 'story-badge';
+    badge.textContent = publicStory ? 'Storia ritrovata' : 'Verifica disponibilità';
     link.appendChild(badge);
+    if (link.closest('.teresa-portrait')) {
+      const caption = link.querySelector('figcaption');
+      if (caption) {
+        const group = document.createElement('div');
+        group.className = 'teresa-caption';
+        group.append(caption, badge);
+        link.appendChild(group);
+      }
+    }
   });
   refreshList();
   if (!page) return;

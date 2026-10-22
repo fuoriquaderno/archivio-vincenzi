@@ -2,34 +2,85 @@
 layout: default
 ---
 <article class="character-page" data-story-page="{{ page.slug | escape }}">
-  <a class="back-to-archive" href="{{ '/#archivio' | relative_url }}">← Torna all’archivio</a>
+
+  <a class="back-to-archive" href="{{ '/#archivio' | relative_url }}">
+    ← Torna all’archivio
+  </a>
+
   <header class="character-heading">
-    <p class="eyebrow">Ritratto {{ page.numero }}</p>
+    <p class="eyebrow">Storia {{ page.numero }}</p>
     <h1>{{ page.title | escape }}</h1>
     <p class="character-role">{{ page.ruolo | escape }}</p>
   </header>
+
   <div class="character-content">
+
     <div class="character-portrait">
       {% if page.foto and page.foto != '' %}
-      <img src="{{ page.foto | relative_url }}" alt="Ritratto di {{ page.title | escape }}" width="1024" height="1536">
-      {% else %}<div class="photo-placeholder"><span>AV</span><small>Ritratto {{ page.numero }}</small></div>{% endif %}
+        <img
+          src="{{ page.foto | relative_url }}"
+          alt="Ritratto di {{ page.title | escape }}"
+          width="1024"
+          height="1536">
+      {% else %}
+        <div class="photo-placeholder">
+          <span>AV</span>
+          <small>Storia {{ page.numero }}</small>
+        </div>
+      {% endif %}
     </div>
+
     <div class="story-access">
-      <p class="story-status" role="status" aria-live="polite">Verifico se la storia è stata ritrovata…</p>
+
+      <p class="story-status" role="status" aria-live="polite">
+        Verifico se la storia è stata ritrovata…
+      </p>
+
       <section class="story-gate" hidden aria-labelledby="titolo-sblocco">
         <h2 id="titolo-sblocco">Una storia ancora da ritrovare</h2>
-        <p>Hai trovato questa fotografia? Inserisci il codice sul retro: la sua storia diventerà leggibile per tutti.</p>
+        <p>
+          Hai trovato questa fotografia? Inserisci il codice sul retro:
+          la sua storia diventerà leggibile per tutti.
+        </p>
+
         <form class="unlock-form">
           <label for="codice-ritratto">Codice della fotografia</label>
-          <input id="codice-ritratto" name="codice" type="text" maxlength="80" autocomplete="off" autocapitalize="characters" spellcheck="false" required aria-describedby="esito-codice">
-          <button type="submit">Restituisci la storia all’archivio</button>
-          <p id="esito-codice" class="unlock-message" role="status" aria-live="polite"></p>
+
+          <input
+            id="codice-ritratto"
+            name="codice"
+            type="text"
+            maxlength="80"
+            autocomplete="off"
+            autocapitalize="characters"
+            spellcheck="false"
+            required
+            aria-describedby="esito-codice">
+
+          <button type="submit">
+            Restituisci la storia all’archivio
+          </button>
+
+          <p
+            id="esito-codice"
+            class="unlock-message"
+            role="status"
+            aria-live="polite"></p>
         </form>
       </section>
+
       <button class="story-retry" type="button" hidden>Riprova</button>
+
       <div class="character-story" hidden></div>
-      <noscript><p>Attiva JavaScript per verificare lo sblocco e leggere la storia.</p></noscript>
+
+      <noscript>
+        <p>Attiva JavaScript per verificare lo sblocco e leggere la storia.</p>
+      </noscript>
+
     </div>
+
   </div>
+
 </article>
+
 {% include elenco-personaggi.html %}

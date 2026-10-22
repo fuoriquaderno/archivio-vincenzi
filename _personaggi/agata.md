@@ -2,7 +2,7 @@
 layout: personaggio
 title: 'Agata Valdieri'
 ruolo: 'Sorella gemella di Agnese'
-numero: 6
+numero: 4
 foto: '/images/Agata Valdieri.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: agata

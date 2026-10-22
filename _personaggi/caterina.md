@@ -2,7 +2,7 @@
 layout: personaggio
 title: 'Caterina'
 ruolo: 'Moglie di Antonio'
-numero: 3
+numero: 11
 foto: '/images/Caterina.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: caterina

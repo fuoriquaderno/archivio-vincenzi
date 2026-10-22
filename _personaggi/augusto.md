@@ -2,7 +2,7 @@
 layout: personaggio
 title: 'Augusto Valdieri'
 ruolo: 'Fratello di Agnese e Agata'
-numero: 7
+numero: 6
 foto: '/images/Augusto Valdieri.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: augusto

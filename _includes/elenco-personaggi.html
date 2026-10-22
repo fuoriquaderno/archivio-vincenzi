@@ -6,7 +6,7 @@
       {% assign scheda = site.personaggi | where: 'url', percorso | first %}
       <li>
       {% if scheda %}
-        <a href="{{ scheda.url | relative_url }}"{% if page.url == scheda.url %} aria-current="page"{% endif %}>{{ persona.nome | escape }}</a>
+        <a href="{{ scheda.url | relative_url }}"{% if page.url == scheda.url %} aria-current="page"{% endif %}>{{ persona.numero }}. {{ persona.nome | escape }}</a>
       {% else %}
         <span>{{ persona.nome | escape }}</span>
       {% endif %}

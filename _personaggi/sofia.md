@@ -2,7 +2,7 @@
 layout: personaggio
 title: 'Sofia Valdieri'
 ruolo: 'Moglie di Augusto Valdieri'
-numero: 23
+numero: 7
 foto: '/images/Sofia Valdieri.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: sofia

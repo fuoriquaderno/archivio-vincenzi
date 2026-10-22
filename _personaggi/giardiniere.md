@@ -2,7 +2,7 @@
 layout: personaggio
 title: 'Giardiniere'
 ruolo: 'Al servizio dei Vincenzi'
-numero: 5
+numero: 12
 foto: '/images/Il giardiniere.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: giardiniere

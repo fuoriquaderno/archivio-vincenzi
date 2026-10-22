@@ -560,3 +560,18 @@ figcaption p { color: var(--muted); font-size: 11px; margin: 5px 0 0; letter-spa
  clip-path: inset(73% 0% 0% 86%);
  pointer-events: none;
 }
+
+/* Didascalia e stato si spostano insieme senza cambiare l'impaginazione. */
+.teresa-caption { display: flow-root; }
+@media (min-width: 1200px) {
+ .teresa-caption { text-align: right; transform: translate(calc(-100% - 16px), -100%); }
+}
+
+@media (min-width: 1200px) { .teresa-caption figcaption { justify-content: flex-end; padding-right: 0; } }
+
+/* Teresa e l'albero sono due sezioni visivamente distinte. */
+.archive-intro {
+ background: rgba(12, 16, 15, .46);
+ box-shadow: 0 0 0 100vmax rgba(12, 16, 15, .46);
+ clip-path: inset(0 -100vmax);
+}
