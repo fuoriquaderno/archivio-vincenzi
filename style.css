@@ -548,3 +548,8 @@ figcaption p { color: var(--muted); font-size: 11px; margin: 5px 0 0; letter-spa
  background: linear-gradient(180deg, #e1d5b9, #c8b48f);
  border-color: #a58c60;
 }
+
+/* Teresa accompagna l'introduzione sul lato destro. */
+.teresa-portrait { float: right; margin: 0 0 20px 28px; }
+@media (max-width: 900px) { .teresa-portrait { margin: 0 0 20px 18px; } }
+@media (max-width: 420px) { .teresa-portrait { float: none; margin: 0 auto 24px; } }

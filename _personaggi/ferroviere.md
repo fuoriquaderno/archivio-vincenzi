@@ -3,7 +3,7 @@ layout: personaggio
 title: 'Ferroviere'
 ruolo: 'Testimone dell''incidente ferroviario'
 numero: 2
-foto: '/images/ritratto_02.jpg'
+foto: '/images/Il ferroviere.jpg'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: ferroviere
 ---

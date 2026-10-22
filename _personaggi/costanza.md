@@ -3,7 +3,7 @@ layout: personaggio
 title: 'Costanza Vincenzi'
 ruolo: 'Madre del signor Vincenzi'
 numero: 10
-foto: '/images/ritratto_10.jpg'
+foto: '/images/Costanza Vincenzi.jpg'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: costanza
 ---

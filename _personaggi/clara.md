@@ -3,7 +3,7 @@ layout: personaggio
 title: 'Clara Vincenzi'
 ruolo: 'Figlia minore, pianista'
 numero: 19
-foto: '/images/ritratto_19.jpg'
+foto: '/images/Clara Vincenzi.jpg'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: clara
 ---

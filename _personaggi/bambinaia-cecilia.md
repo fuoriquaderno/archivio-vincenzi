@@ -3,7 +3,7 @@ layout: personaggio
 title: 'Bambinaia di Cecilia'
 ruolo: 'Al servizio dei Morelli'
 numero: 15
-foto: '/images/ritratto_15.jpg'
+foto: '/images/La Bambinaia.png'
 description: 'Una testimonianza dall’Archivio Vincenzi.'
 slug: bambinaia-cecilia
 ---

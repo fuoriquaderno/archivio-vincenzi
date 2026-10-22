@@ -14,9 +14,9 @@
     "slug": "signor-vincenzi"
   },
   {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Madre di Antonio, Giuseppe e Clara",
+    "scheda": true,
+    "numero": 21,
+    "ruolo": "Moglie di Giovanni Vincenzi",
     "nome": "Agnese Valdieri",
     "slug": "agnese"
   },
@@ -63,9 +63,9 @@
     "slug": "giuseppe"
   },
   {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Figlia di Arturo e moglie di Giuseppe",
+    "scheda": true,
+    "numero": 22,
+    "ruolo": "Moglie di Giuseppe Vincenzi",
     "nome": "Cecilia Morelli",
     "slug": "cecilia"
   },
@@ -77,9 +77,9 @@
     "slug": "clara"
   },
   {
-    "scheda": false,
-    "numero": 0,
-    "ruolo": "Bambinaia dei Vincenzi",
+    "scheda": true,
+    "numero": 24,
+    "ruolo": "Bambinaia dei Vincenzi · Ricordi di sua nipote Elisa",
     "nome": "Teresa",
     "slug": "teresa"
   },
@@ -117,5 +117,12 @@
     "ruolo": "Al servizio dei Morelli",
     "nome": "Bambinaia di Cecilia",
     "slug": "bambinaia-cecilia"
+  },
+  {
+    "slug": "sofia",
+    "scheda": true,
+    "numero": 23,
+    "ruolo": "Moglie di Augusto Valdieri",
+    "nome": "Sofia Valdieri"
   }
 ]
