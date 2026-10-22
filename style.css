@@ -524,3 +524,27 @@ figcaption p { color: var(--muted); font-size: 11px; margin: 5px 0 0; letter-spa
 .rectangular-mobile .portrait-photo img { filter: drop-shadow(0 4px 5px #0007); }
 .rectangular-mobile h3 { background: #ded0ac; color: #342d21; padding: 6px 5px; margin: 9px 0 5px; font: 500 18px/1.25 var(--serif); }
 .teresa-portrait .portrait-photo { box-shadow: none; background: transparent; }
+
+/* Centra l’ingombro visivo dei rami, con foglie scure e desaturate. */
+.leaf-tree .tree-art { left: -5.5%; filter: saturate(.28) brightness(.58) sepia(.2); }
+.leaf-tree .tree-portrait { left: calc(var(--x) - 5.5%); }
+
+/* Targhette in pergamena, con bordo bronzo e rilievo leggero. */
+.leaf-tree .tree-portrait h3, .rectangular-mobile h3 {
+ background: linear-gradient(180deg, #d6c9ac 0%, #c9b995 52%, #b9a581 100%);
+ color: #352d22;
+ border: 1px solid #7f6d50;
+ border-radius: 3px;
+ padding: 5px 6px;
+ letter-spacing: .015em;
+ font-weight: 500;
+ box-shadow: inset 0 1px 0 #f4e8ce9c, inset 0 -1px 0 #67523545, 0 3px 5px #0006;
+ text-shadow: 0 1px 0 #f4e8ce55;
+}
+.leaf-tree .tree-portrait .person-card-link:hover h3,
+.leaf-tree .tree-portrait .person-card-link:focus-visible h3,
+.rectangular-mobile .person-card-link:hover h3,
+.rectangular-mobile .person-card-link:focus-visible h3 {
+ background: linear-gradient(180deg, #e1d5b9, #c8b48f);
+ border-color: #a58c60;
+}
