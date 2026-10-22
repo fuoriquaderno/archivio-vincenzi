@@ -13,11 +13,27 @@ permalink: /progetto/
       racconti di una famiglia e delle persone che l’hanno conosciuta.</p>
   </header>
   <div class="project-prose">
-    <h2>Hai trovato una fotografia?</h2>
-    <p>Sul retro trovi il numero del ritratto e il suo codice. Cerca il personaggio nell’archivio, apri la sua scheda e 
-      inserisci il codice. Se è corretto, la storia si apre e diventa leggibile da tutti.</p>
-    <p>Ogni ritrovamento aggiunge un pezzo al racconto. Non serve trovare tutte le fotografie, né seguire un ordine preciso: 
-      puoi leggere le storie già aperte e tornare per scoprire quelle che gli altri avranno ritrovato.</p>
+    <section class="found-photo" aria-labelledby="foto-trovata" data-stories-base="{{ '/personaggi/' | relative_url }}">
+      <h2 id="foto-trovata">Hai trovato una fotografia?</h2>
+      <p>Puoi tenerla e scoprire la sua storia. Sul retro trovi il numero della storia e il codice di sblocco.</p>
+      <p>Se hai inquadrato il QR, i campi qui sotto sono già compilati. Altrimenti scegli il numero della storia e inserisci il codice stampato sul retro. Premi «Scopri la storia»: il racconto si aprirà e diventerà leggibile da tutti.</p>
+      <form class="found-photo-form">
+        <label for="ritrovamento-storia">La storia della tua fotografia</label>
+        <select id="ritrovamento-storia" required>
+          <option value="">Scegli il numero della storia</option>
+          {% for persona in site.data.personaggi %}
+          {% if persona.scheda and persona.slug != 'teresa' %}
+          <option value="{{ persona.slug | escape }}">{{ persona.numero }}. {{ persona.nome | escape }}</option>
+          {% endif %}
+          {% endfor %}
+        </select>
+        <label for="ritrovamento-codice">Codice sul retro della fotografia</label>
+        <input id="ritrovamento-codice" type="text" maxlength="80" autocomplete="off" autocapitalize="characters" spellcheck="false" required aria-describedby="ritrovamento-esito">
+        <button type="submit">Scopri la storia</button>
+        <p id="ritrovamento-esito" class="found-photo-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <p>Ogni ritrovamento aggiunge un pezzo al racconto. Non serve trovare tutte le fotografie, né seguire un ordine preciso: puoi leggere le storie già aperte e tornare per scoprire quelle che gli altri avranno ritrovato.</p>
     <h2>Un archivio, più voci</h2>
     <p>I racconti seguono i ricordi di chi ha abitato la casa dei Vincenzi, vi ha lavorato o ne ha conosciuto la famiglia. Le testimonianze si incontrano, aggiungono particolari e qualche volta sembrano contraddirsi. Sta a chi legge cercare i legami.</p>
     <h2>Gli Spisotti</h2>
@@ -26,3 +42,5 @@ permalink: /progetto/
     <a class="project-button" href="https://glispisotti.github.io/">Scopri gli Spisotti <span aria-hidden="true">↗</span></a>
   </div>
 </article>
+
+<script defer src="{{ '/assets/js/foto-trovata.js' | relative_url }}"></script>

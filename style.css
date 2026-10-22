@@ -575,3 +575,15 @@ figcaption p { color: var(--muted); font-size: 11px; margin: 5px 0 0; letter-spa
  box-shadow: 0 0 0 100vmax rgba(12, 16, 15, .46);
  clip-path: inset(0 -100vmax);
 }
+
+
+/* La foto trovata: QR e inserimento manuale condividono lo stesso percorso. */
+.found-photo { margin: 36px 0; padding: clamp(20px, 4vw, 32px); background: rgba(12,16,15,.46); border: 1px solid var(--line); }
+.found-photo h2 { margin-top: 0; }
+.found-photo-form { display: grid; gap: 12px; margin-top: 24px; }
+.found-photo-form label { font-size: 13px; }
+.found-photo-form input, .found-photo-form select { width: 100%; min-width: 0; border: 1px solid #8b8779; background: var(--background); color: var(--text); padding: 13px; font: 16px var(--sans); }
+.found-photo-form button { background: #734c45; border: 1px solid #ac8073; color: #fff8ee; padding: 14px 18px; font: 15px var(--sans); cursor: pointer; }
+.found-photo-form button:disabled { opacity: .65; cursor: wait; }
+.found-photo-form :focus-visible { outline: 2px solid #dfc8a1; outline-offset: 4px; }
+.found-photo-form .found-photo-message { min-height: 2em; margin: 0; font-size: 13px; line-height: 1.5; }
