@@ -1,6 +1,6 @@
 ---
 layout: personaggio
-title: 'Caterina'
+title: 'Caterina Balestri'
 ruolo: 'Moglie di Antonio'
 numero: 11
 foto: '/images/Caterina.png'
