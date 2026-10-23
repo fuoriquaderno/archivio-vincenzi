@@ -46,6 +46,7 @@
           message.textContent = 'Il codice non corrisponde a questa storia. Controlla il numero e il codice sul retro della foto.';
           return;
         }
+        try { sessionStorage.setItem('archivio-commento:' + slug, enteredCode); } catch (_) {}
         location.assign(section.dataset.storiesBase + encodeURIComponent(slug) + '/');
       } catch (_) {
         message.textContent = 'Non riesco a verificare il codice. Controlla la connessione e riprova.';

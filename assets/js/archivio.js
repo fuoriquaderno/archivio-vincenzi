@@ -102,7 +102,7 @@
     pending = true; submit.disabled = true; message.textContent = 'Verifico il codice…';
     try {
       const data = await rpc('archivio_sblocca', { p_slug: slug, p_codice: form.elements.codice.value.trim() });
-      if (data.ok && typeof data.html === 'string') { reveal(data); form.reset(); }
+      if (data.ok && typeof data.html === 'string') { const codice = form.elements.codice.value.trim(); reveal(data); page.dispatchEvent(new CustomEvent('archivio:codice-verificato', { detail: { codice } })); form.reset(); }
       else message.textContent = 'Il codice non corrisponde a questa fotografia. Controllalo e riprova.';
     } catch (_) { message.textContent = 'Il collegamento non è riuscito. Riprova tra poco.'; }
     finally { pending = false; submit.disabled = false; }

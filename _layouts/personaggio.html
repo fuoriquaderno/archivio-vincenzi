@@ -73,6 +73,27 @@ layout: default
 
       <div class="character-story" hidden></div>
 
+      <section class="story-comments" hidden aria-labelledby="titolo-commenti">
+        <h2 id="titolo-commenti">Chi ha trovato la fotografia</h2>
+        <div class="approved-comments" hidden></div>
+        <div class="finder-comment-access">
+          <p>Hai trovato questa foto? Puoi lasciare un solo commento con il suo codice, anche dopo lo sblocco della storia.</p>
+          <form class="comment-code-form">
+            <label for="codice-commento">Codice della fotografia</label>
+            <input id="codice-commento" name="codice" type="text" maxlength="80" autocomplete="off" autocapitalize="characters" spellcheck="false" required>
+            <button type="submit">Verifica il codice per commentare</button>
+          </form>
+          <form class="finder-comment-form" hidden>
+            <label for="testo-commento">Il ritrovamento della fotografia</label>
+            <textarea id="testo-commento" name="commento" rows="5" maxlength="2000" placeholder="raccontaci dove hai trovato la foto e perché l'hai raccolta" required aria-describedby="nota-commento"></textarea>
+            <p id="nota-commento">Il commento è facoltativo. Sarà visibile a chi cura l’archivio e verrà pubblicato solo dopo approvazione. Puoi inviarlo una sola volta per questa fotografia. Evita di inserire dati personali.</p>
+            <button type="submit">Invia il commento</button>
+          </form>
+          <p class="comment-message" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+
       <noscript>
         <p>Attiva JavaScript per verificare lo sblocco e leggere la storia.</p>
       </noscript>

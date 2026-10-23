@@ -587,3 +587,17 @@ figcaption p { color: var(--muted); font-size: 11px; margin: 5px 0 0; letter-spa
 .found-photo-form button:disabled { opacity: .65; cursor: wait; }
 .found-photo-form :focus-visible { outline: 2px solid #dfc8a1; outline-offset: 4px; }
 .found-photo-form .found-photo-message { min-height: 2em; margin: 0; font-size: 13px; line-height: 1.5; }
+
+/* Testimonianza di chi ha trovato la fotografia. */
+.story-comments { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(202,181,139,.35); }
+.story-comments h2 { font-size: 1.6rem; }
+.comment-code-form, .finder-comment-form { display: grid; gap: .8rem; }
+.story-comments input, .story-comments textarea { box-sizing: border-box; width: 100%; min-width: 0; padding: .85rem; border: 1px solid #a88e61; border-radius: 4px; color: #eadcc1; background: #242621; font: inherit; }
+.story-comments textarea { resize: vertical; line-height: 1.6; }
+.story-comments textarea::placeholder { color: #c6bda9; opacity: 1; }
+.story-comments button { justify-self: start; max-width: 100%; padding: .8rem 1.1rem; border: 1px solid #b39b70; border-radius: 4px; background: #d1bd91; color: #28251d; cursor: pointer; font: inherit; }
+.story-comments button:disabled { opacity: .65; cursor: wait; }
+.story-comments [hidden] { display: none !important; }
+.story-comments #nota-commento { font-size: .9rem; opacity: .85; margin: 0 0 .5rem; }
+.story-comments .comment-message { min-height: 1.5em; }
+.finder-testimony { padding: 1rem 1.2rem; border-left: 2px solid #b39b70; background: rgba(219,200,158,.07); white-space: pre-wrap; overflow-wrap: anywhere; }
